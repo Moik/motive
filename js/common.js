@@ -2,10 +2,10 @@ $(function() {
 
 	$('.toggle-menu').click(function() {
 		var menu = $(".main-menu ul");
-		if(menu.is(":visible")) {
-			menu.hide();
-		} else {
+		if(menu.is(":hidden")) {
 			menu.show();
+		} else {
+			menu.hide();
 		}
 	});
 
